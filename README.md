@@ -21,3 +21,11 @@ manual `h(...)` calls), you can enable Volar's Take Over mode by following these
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+
+### 基础配置功能
+
+- Vue-router
+- Pinia
+- SVG雪碧图
+- Eslint
+- Axios
