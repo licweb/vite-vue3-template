@@ -1,15 +1,15 @@
-<script lang="ts" setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+<script setup lang="ts">
+import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <nav>
-    <router-link to="/">Home</router-link>
-    |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <header>
+    <nav>
+      <RouterLink to="/">Home</RouterLink> |
+      <RouterLink to="/about">About</RouterLink>
+    </nav>
+  </header>
+  <RouterView />
 </template>
 
 <style lang="less">
