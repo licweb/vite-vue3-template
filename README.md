@@ -31,8 +31,7 @@ npm run lint
 ```
 ### 基础配置功能
 
-- Vue-router
+- Axios
 - Pinia
 - SVG雪碧图
-- Eslint
-- Axios
+- Eslint（prettier）
